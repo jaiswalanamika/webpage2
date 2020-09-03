@@ -1,0 +1,95 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: sants-series;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url(img4.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 13px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 2px solid transparant;
+	transition: 0.8s ease;
+	
+}
+
+ul li a:hover{
+	background-color: gray;
+	color: white;
+}
+
+ul li.active a{	
+	background-color: gray;
+	color: white;
+}
+
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+
+.main{
+`	max-width: 1200px;
+	margin: auto;
+	padding: 5px 15px;
+	}
+	
+.title{
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	transform: translate(-50px,-50px);
+}
+
+.title  h1{
+	color: white;
+	font-size: 50px;
+
+}
+	
+.button{
+	position: absolute;
+	top: 65%;
+	left: 40%;
+	transform: translate(-50px,-50px);
+
+}
+
+.btn{
+	text-decoration: none;
+	color: white;
+	padding: 10px 40px;
+	margin:0px 5px;
+	border: 2px solid #fff;
+	transition: 0.8s ease;
+}
+
+.btn:hover{
+	background-color: gray;
+	color: white;
+}
+	
+	
+	
+	
+	
+	
+	
